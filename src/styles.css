@@ -1,4 +1,32 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.para {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65%;
+  word-spacing: 5px;
+  line-height: 22px;
+  background-color: rgb(189, 186, 186);
+  padding: 10px;
+}
+
+.highlighter {
+  height: fit-content;
+  padding: 2px 5px 2px 5px;
+  border-radius: 9px;
+  margin: 3px 5px;
+  margin-top: -1px;
+}
+
+.tag{
+  padding: 1px 5px;
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 8px;
 }
